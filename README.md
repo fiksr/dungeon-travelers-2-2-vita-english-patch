@@ -21,15 +21,27 @@ Ports the official English localization from the PC release of **Dungeon Travele
 
 ---
 
-## Installation (Extract & Copy-Paste)
+## Installation Guide (Full vs. Lite)
 
-Download either zip from the **[Releases](https://github.com/fiksr/dungeon-travelers-2-2-vita-english-patch/releases)** page:
-- **`DungeonTravelers2-2_PCSG00841_EN_Patch_Full.zip` (`516.6 MB`):** Complete 1-step copy-paste package including `CG.pck` (`889` English enemy/event/tutorial graphic banners with original uncensored Vita CGs intact).
-- **`DungeonTravelers2-2_PCSG00841_EN_Patch_Lite.zip` (`19.8 MB`):** Lightweight 1-step copy-paste package containing all `106` translated scripts, parameters, fonts, `eboot.bin`, `UI.tex`, `Title\*`, `Character.pck`, `Dungeon\st*`, and `WorldMap\*` (leaves `CG.pck` untouched).
+Download either `.zip` from the **[Releases](https://github.com/fiksr/dungeon-travelers-2-2-vita-english-patch/releases)** page:
 
-Then extract the `.zip` contents directly into your `PCSG00841` folder:
-- **Vita3K:** Extract/copy all files from the `.zip` directly into `<Vita3K>\ux0\app\PCSG00841\` and overwrite existing files when prompted.
-- **Real PS Vita (`rePatch`):** Extract/copy all files from the `.zip` directly into `ux0:rePatch/PCSG00841/` on your PS Vita (requires the `rePatch` plugin).
+| Package | Size | What's Included | When to Choose |
+| :--- | :--- | :--- | :--- |
+| **`DungeonTravelers2-2_PCSG00841_EN_Patch_Full.zip`** | `516.6 MB` | All `106` translated files **+ patched `CG.pck`** (`889` English enemy nameplates, event title cards, and Battle Teacher tutorial slides, with original uncensored Vita event CGs preserved) | Recommended if you want 100% of graphic overlays and tutorials in English. |
+| **`DungeonTravelers2-2_PCSG00841_EN_Patch_Lite.zip`** | `19.8 MB` | All `106` translated files (`eboot.bin`, fonts, all story/dungeon scripts, items/skills/parameters, `UI.tex`, `Title\*`, `Character.pck`, `Dungeon\st*`, `WorldMap\*`) — **excludes `CG.pck`** | Recommended if you want a fast ~20 MB download; 100% of story, menus, skills, items, and dungeon chatter are in English (only the graphic enemy/tutorial overlays stored inside `CG.pck` stay Japanese). |
+
+### How to Install (Both Full & Lite Use the Exact Same Steps)
+
+All files sit directly at the root of the `.zip` (no nested wrapper folder):
+
+- **Vita3K Emulator:**
+  1. Right-click **Dungeon Travelers 2-2 (`PCSG00841`)** in Vita3K -> **Open Folder** (opens `<Vita3K>\ux0\app\PCSG00841\`).
+  2. Extract all files from the `.zip` (either **Full** or **Lite**) directly into `<Vita3K>\ux0\app\PCSG00841\` and click **Replace the files in the destination** when prompted.
+
+- **Real PS Vita (`rePatch`):**
+  1. Make sure you have the `rePatch` plugin (`rePatch reDux0` / `reLoaded`) installed on your PS Vita.
+  2. Create the folder `ux0:rePatch/PCSG00841/` on your Vita if it does not exist.
+  3. Extract all files from the `.zip` (either **Full** or **Lite**) directly into `ux0:rePatch/PCSG00841/`.
 
 ---
 
