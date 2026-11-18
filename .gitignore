@@ -1,0 +1,7 @@
+backup/
+DungeonTravelers2-2_EN/
+release/
+__pycache__/
+*.pyc
+*.zip
+*.png
