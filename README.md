@@ -27,9 +27,9 @@ Download either zip from the **[Releases](https://github.com/fiksr/dungeon-trave
 - **`DungeonTravelers2-2_PCSG00841_EN_Patch_Full.zip` (`516.6 MB`):** Complete 1-step copy-paste package including `CG.pck` (`889` English enemy/event/tutorial graphic banners with original uncensored Vita CGs intact).
 - **`DungeonTravelers2-2_PCSG00841_EN_Patch_Lite.zip` (`19.8 MB`):** Lightweight 1-step copy-paste package containing all `106` translated scripts, parameters, fonts, `eboot.bin`, `UI.tex`, `Title\*`, `Character.pck`, `Dungeon\st*`, and `WorldMap\*` (leaves `CG.pck` untouched).
 
-Then extract the `PCSG00841` folder from the `.zip`:
-- **Vita3K:** Copy and paste `PCSG00841` into `<Vita3K>\ux0\app\` and overwrite existing files when prompted.
-- **Real PS Vita (`rePatch`):** Copy `PCSG00841` into `ux0:rePatch/` on your PS Vita (requires the `rePatch` plugin).
+Then extract the `.zip` contents directly into your `PCSG00841` folder:
+- **Vita3K:** Extract/copy all files from the `.zip` directly into `<Vita3K>\ux0\app\PCSG00841\` and overwrite existing files when prompted.
+- **Real PS Vita (`rePatch`):** Extract/copy all files from the `.zip` directly into `ux0:rePatch/PCSG00841/` on your PS Vita (requires the `rePatch` plugin).
 
 ---
 
